@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Home</title>
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<meta name="robots" content="index,follow" />
+	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+	<!-- ===== CSS Bootstrap ===== -->
+	<link rel="stylesheet" type="text/css" href="lib/bootstrap/bootstrap.min.css">
+	<!-- ===== CSS UI ===== -->
+	<link rel="stylesheet" type="text/css" href="lib/jquery-ui/jquery-ui.min.css">
+	<!-- ===== CSS style ===== -->
+	<link rel="stylesheet" type="text/css" href="css/style.min.css">
+	<!-- ===== Responsive CSS ===== -->
+	<!-- <link rel="stylesheet" type="text/css" href="css/responsive.css"> -->
+
+  	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+		<link href='css/animations-ie-fix.css' rel='stylesheet'>
+		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+		<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	<![endif]-->
+</head>
+<body>
+	
+	<header id="header">
+		<div class="top">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 col-sm-12 col-xs-12 contact-preferences">
+					    <div class="contact text-left">
+					        <div class="visible-xs visible-sm mobile-logo-group">
+					            <a class="website-nav-toggle" title="Toogle navigation">
+					            	<span class="icon"></span>
+					            </a>
+					            <a class="website-mobile-logo" title="Go to homepage" href="#">
+					            	<img src="images/logo2-small.svg" data-pagespeed-lsc-url="images/logo2-small.svg">
+					            </a>
+					        </div>
+					        <div class="hidden-xs hidden-sm">
+					            <div class="contact text-uppercase">
+					                <span class="item our-shops">
+					                	<a href="#" title="">Cửa hàng</a>
+					                </span>
+					                <span class="sep">|</span>
+					                <span class="item phone-number">
+					                	<span>Liên hệ: </span>
+					                	<span class="highlight">1900 63 64 76</span>
+					                </span>
+					                <span class="sep">|</span>
+					                <span class="item live-support">
+					                	<a>Hỗ trợ</a>
+					                </span>
+					                <span class="sep">|</span>
+					                <span class="item faq">
+					                	<a href="#" title="">Faq</a>
+					                </span>
+					            </div>
+					        </div>
+					    </div>
+					    <div class="preferences text-right">
+					        <div class="account popup-link hidden-xs hidden-sm">
+					            <div class="visible-lg visible-md">
+					                <a href="#" title="">
+					                	<b class="text-uppercase">Đăng nhập</b>
+					                </a>
+					                <span class="separator">|</span>
+					                <a href="#" title="">
+					                	<b class="text-uppercase">Đăng ký</b>
+					                </a>
+					            </div>
+					        </div>
+					        <div class="cart popup-link">
+					            <div class="text" title="Giỏ hàng">
+					                <a class="clearfix btn-open-popup" href="#" data-popup="cart">
+						                <span class="icon">
+						                	<span class="number">0</span>
+						                </span>
+					                </a>
+					            </div>
+					        </div>
+					        <div class="stock-region popup-link">
+					            <div>
+					                <div class="text text-left">
+					                    <a class="clearfix btn-open-popup" data-popup="regions">
+					                    	<span class="icon"></span>
+					                    </a>
+					                </div>
+					            </div>
+					        </div>
+					        <div class="languages popup-link">
+					            <div class="text">
+					                <a title="Switch to English" href="https://uma.vn/en/">
+					                	<img src="images/en-32x21.svg" width="30px" height="21px" data-pagespeed-lsc-url="images/en-32x21.svg">
+					                </a>
+					            </div>
+					        </div>
+					    </div>
+					</div>
+				</div>
+			</div>
+		</div><!-- /top -->
+		<div class="middle hidden-sm hidden-xs">
+		   <div class="container">
+		      <div class="row">
+		         <div class="col-md-12 col-sm-12 col-xs-12">
+		            <a class="logo" href="#">
+		            	<img src="images/xuma-logo-vn.png.pagespeed.ic.eoU0qNyizU.webp" alt="" class="img-responsive" width="1312" height="175">
+		            </a>
+		            <div class="search">
+		               <div class="search-container">
+		                  <form id="search_mini_form" action="https://uma.vn/vi/catalogsearch/result/" method="get">
+		                     <div class="form-search">
+		                        <input id="search" type="text" autocomplete="off" placeholder="TÌM KIẾM" name="q" value="" class="input-text" maxlength="128">
+		                        <button class="submit" title="Tìm">
+		                        	<img src="images/magnifier-tool-white.svg" width="22px" height="22px" data-pagespeed-lsc-url="images/magnifier-tool-white.svg">
+		                        </button>
+		                        <div id="search_autocomplete" class="search-autocomplete" style="display: none;"></div>
+		                     </div>
+		                  </form>
+		               </div>
+		            </div>
+		         </div>
+		      </div>
+		   </div>
+		</div><!-- /middle -->
+	</header><!-- /header -->
+
+	<div class="popups-container">
+	    <div class="popup regions">
+	        <div class="container">
+	            <div class="contents">
+	                <div class="header-icon">
+	                    <img src="images/map-icon.svg" data-pagespeed-lsc-url="images/map-icon.svg">
+	                </div>
+	                <form action="#" method="post">
+	                    <h4 class="popup-title">Vui lòng chọn khu vực mua hàng của bạn</h4>
+	                    <p class="popup-description">Thao tác này giúp bạn biết chính xác trạng thái hàng hóa tại khu vực đó.</p>
+	                    <div class="selection">
+	                        <div class="option miennam">
+	                            <input type="radio" class="region-option hidden" value="miennam" name="region-selection" id="region-option-miennam" checked="checked">
+	                            <label for="region-option-miennam" class="miennam">
+	                                <span class="text">Miền Nam<br>Việt Nam</span>
+	                                <img data-pagespeed-high-res-src="images/xsaigon-colored.jpg.pagespeed.ic.QgsR2QYJS1.webp" class="selected" width="256" height="177" src="images/xsaigon-colored.jpg.pagespeed.ic.QgsR2QYJS1.webp">
+	                                <img data-pagespeed-high-res-src="images/xsaigon-grayscale.jpg.pagespeed.ic.y_bQOklsnt.webp" class="unselected" width="256" height="177" src="images/xsaigon-grayscale.jpg.pagespeed.ic.y_bQOklsnt.webp">
+	                            </label>
+	                        </div>
+	                        <div class="option mienbac">
+	                            <input type="radio" class="region-option hidden" value="mienbac" name="region-selection" id="region-option-mienbac">
+	                            <label for="region-option-mienbac" class="mienbac">
+	                            <span class="text">Miền Bắc<br>Việt Nam</span>
+	                            <img data-pagespeed-high-res-src="images/xhanoi-colored.jpg.pagespeed.ic.xPmTI0N1kD.webp" class="selected" width="256" height="177" src="images/xhanoi-colored.jpg.pagespeed.ic.xPmTI0N1kD.webp">
+	                            <img data-pagespeed-high-res-src="images/xhanoi-grayscale.jpg.pagespeed.ic.wpn2REg0q0.webp" class="unselected" width="256" height="177" src="images/xhanoi-grayscale.jpg.pagespeed.ic.wpn2REg0q0.webp">
+	                            </label>
+	                        </div>
+	                    </div>
+	                    <input type="hidden" name="current-page-url" id="current-page-url" value="#">
+	                    <div class="proceed-button">
+	                        <button class="btn btn-default">Tiếp tục mua hàng</button>
+	                    </div>
+	                </form>
+	            </div>
+	        </div>
+	    </div>
+	    <div class="popup cart">
+	        <div class="container">
+	            <div class="contents">
+	                <div class="popup-header">
+	                    <div class="cart-item-amount">
+	                        <p class="amount empty">Giỏ hàng trống</p>
+	                    </div>
+	                    <div class="btn-close" title="đóng">
+	                        <i class="fa fa-close"></i>
+	                    </div>
+	                </div>
+	                <div class="popup-details">
+	                    <div class="cart-items-list">
+	                        <p class="text-left empty">Bạn chưa có sản phẩm nào trong giỏ hàng!</p>
+	                        <div class="remaining-item"></div>
+	                    </div>
+	                </div>
+	                <div class="popup-footer"></div>
+	                <div class="cart-actions popup-buttons"></div>
+	            </div>
+	        </div>
+	    </div>
+	    <div class="popup wishlist">
+	        <div class="container">
+	            <div class="contents">
+	                <div class="popup-header">
+	                    <p>Yêu cầu đăng nhập</p>
+	                </div>
+	                <div class="popup-details">
+	                    <p>Bạn cần đăng nhập để sử dụng Danh sách yêu thích</p>
+	                </div>
+	            </div>
+	        </div>
+	    </div>
+	</div>
+
+	<!-- ===== JS ===== -->
+	<script src="js/jquery.min.js"></script>
+	<!-- ===== JS UI ===== -->
+	<script src="lib/jquery-ui/jquery-ui.min.js"></script>
+	<!-- ===== JS Bootstrap ===== -->
+	<script src="lib/bootstrap/bootstrap.min.js"></script>
+	<!-- ===== JS Carousel ===== -->
+	<script src="lib/carousel/owl.carousel.min.js"></script>
+	<!-- Js Common -->
+	<script src="js/common.js"></script>
+
+	<script>
+		$('.popup').dialog({
+		    modal: true,
+		    autoOpen: false,
+		    show: {
+		        effect: 'fade',
+		        duration: 500
+		    },
+		    hide: {
+		        effect: 'fade',
+		        duration: 500
+		    },
+		    open: function () {
+		        
+		    },
+		    close: function () {
+		        
+		    }
+		});
+		$('.btn-open-popup').on('click', function () {
+		    var popupId = $(this).attr("data-popup");
+		    $(popupId).dialog('open');
+		});
+
+		$(window).resize(function () {
+		    $(".popup").dialog("option", "position", {
+		        my: "center",
+		        at: "center",
+		        of: window
+		    });
+		    $('.widget-overlay').show().fadeOut(800);
+		});
+		// $("body").append('<div id="falseModal" style="display:none;"></div>');
+	</script>
+</body>
+</html>
