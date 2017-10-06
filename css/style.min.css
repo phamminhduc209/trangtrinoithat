@@ -38,12 +38,12 @@ header .top .contact-preferences .contact{font-weight:700;white-space:normal}
 header .top .contact-preferences .contact span{letter-spacing:1px;display:inline-block}
 header .top .contact-preferences .contact span a{color:#c51230}
 header .top .contact-preferences .contact .website-nav-toggle{display:inline-block;padding:10px;margin:-10px -5px -10px -10px}
-header .top .contact-preferences .contact .website-nav-toggle .icon{width:25px;height:25px;display:inline-block;background:url(../images/header-icons.svg?17010031552) no-repeat;background-position:-25px 0!important}
+header .top .contact-preferences .contact .website-nav-toggle .icon{width:25px;height:25px;display:inline-block;background:url(../images/header-icons.svg?17010051631) no-repeat;background-position:-25px 0!important}
 header .top .contact-preferences .contact .website-mobile-logo{display:inline-block}
 header .top .contact-preferences .preferences{white-space:nowrap}
 header .top .contact-preferences .preferences>*{vertical-align:middle;display:inline-block;min-width:20px;margin-left:5px}
 header .top .contact-preferences .preferences .account{position:relative}
-header .top .contact-preferences .account .icon,header .top .contact-preferences .cart .icon,header .top .contact-preferences .stock-region .icon,header .top .contact-preferences .wishlist .icon{background:url(https://uma.vn/skin/frontend/uma/default/images/icons/header-icons.svg?17010031552) no-repeat}
+header .top .contact-preferences .account .icon,header .top .contact-preferences .cart .icon,header .top .contact-preferences .stock-region .icon,header .top .contact-preferences .wishlist .icon{background:url(https://uma.vn/skin/frontend/uma/default/images/icons/header-icons.svg?17010051631) no-repeat}
 header .top .contact-preferences .cart .icon{background-position:0 -50px!important}
 header .top .contact-preferences .cart .icon:hover{background-position:-25px -50px!important}
 header .top .contact-preferences .stock-region .icon{background-position:0 -100px!important}
